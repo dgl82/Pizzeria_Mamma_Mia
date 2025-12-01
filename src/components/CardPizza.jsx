@@ -12,7 +12,12 @@ const CardPizza = ({ name, price, ingredients, img }) => {
       <ListGroup className="list-group-flush">
         <ListGroup.Item>
           <p className="centrado">Ingredientes:</p>
-          <div className="listaIngredientes">🍕{ingredients}</div>
+          <div className="listaIngredientes">
+            🍕
+            {ingredients.map((ingredient) => (
+              <p> {ingredient},</p>
+            ))}
+          </div>
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
