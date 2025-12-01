@@ -21,7 +21,9 @@ const CardPizza = ({ name, price, ingredients, img }) => {
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <p className="centrado">Precio: $ {price.toLocaleString("es-CL")}</p>
+        <p className="centrado precio">
+          Precio: ${price.toLocaleString("es-CL")}
+        </p>
 
         <div className="botonesSeparados">
           <Button variant="light" className="botonVermas">
