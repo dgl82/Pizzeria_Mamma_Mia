@@ -79,3 +79,22 @@ body {
   justify-content: center;
   align-items: center; */
 }
+
+.botonesSeparados {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botonVermas {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.listaIngredientes {
+  display: flex;
+  justify-content: center;
+}
