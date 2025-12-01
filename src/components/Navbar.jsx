@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
       <div>
         <button className="botonTotal">
-          Total:${total.toLocaleString("es-CL")}
+          🛒 Total:${total.toLocaleString("es-CL")}
         </button>
       </div>
     </div>
